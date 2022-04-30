@@ -1,40 +1,47 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>201 Day 1 Questions</title>
+        <title>Dungeons & Dragons 101</title>
         <style>
             p {
-                color: blue;
+                color: rgb(13, 28, 14);
+            }
+            h2 {
+                color: rgb(82, 5, 5);
+            }
+            h1{
+                color: rgb(250, 248, 248);
+                background-color: blueviolet;
             }
         </style>
     </head>
     <body>
-        <h1>Questions</h1>
-        <p>Let's answer some questions!</p>
-        <script>
-           // let potato = prompt("What is your name?");
-            //alert("This is an announcement for " + potato);
+        <header>
+            <h2>Welcome to Dungeons & Dragons 101</h2>
+        </header>
+            <main>
+                <h1>Class 1 Lab</h1>
+                <p>What type of character would you like to play?</p>
+                <p>What species will your character be?</p>
+                <p>What would you call yourself?</p>
+                <p>What is your best skill?</p>
+    
+            </main>
+         <footer>
 
-            //let number = prompt("How old are you?");
-            //alert("Great! " + number);
+         </footer>
+         <script>
+             let dndClass = prompt("What type of character would you like to play? A few standard choices are Wizard, Fighter, Druid, and Ranger.");
+             alert(dndClass + ". Well chosen.");
 
-            //let vacation = prompt("How many days do you take off for a holiday?");
-            //alert("You need to make a vacation request for " + vacation + " days.");
+             let dndRace = prompt("What species will your " + dndClass + " be?");
+             alert(dndRace + " " + dndClass + ", huh? Interesting choice!");
 
-            //let movie = prompt("What is your favorite movie?");
-            //alert(movie + " is a great movie.");
+             let dndName = prompt("And what would you call yourself, " + dndRace + " " + dndClass + "?");
+             alert(dndName + ", the " + dndRace + " " + dndClass + "! Fantastic!");
 
-            //let coffee = prompt("What is your favorite coffee?");
-            //alert(coffee + " is a terrible coffee!");
-
-            //let pets = prompt("How many pets do you have?");
-            //alert("You only have " + pets + "? You need more!");
-
-            //let whichCity = prompt("Where are you from?");
-            //alert("I am also from " + whichCity);
-
-            let whiskey = prompt("What is your favorite drink?");
-            alert(whiskey + " is really tasty!");
-        </script>
+             let dndSkill = prompt("Finally, " + dndName + ", the " + dndRace + " " + dndClass + ", what is your best skill?");
+             alert("Ah, I've never met a " + dndRace + " " + dndClass + " who is adept at " + dndSkill + "! Welcome to Dungeons & Dragons 101!");
+         </script>
     </body>
 </html>
